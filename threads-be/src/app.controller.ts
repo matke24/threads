@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-import { API_PREFIX } from './consts';
+import { API_PREFIX } from './const';
 
 @Controller(API_PREFIX)
 export class AppController {
